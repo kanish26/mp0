@@ -1,20 +1,20 @@
 body {
   background-color: white;        /*white background*/
-  font-family: Arial, sans-serif;
+  font-family: Times New Roman, serif;
   margin: 0;
 }
 
 .card {
-  background-color: #555555;     /*dark gray card*/
+  background-color: #4e4d4d;     /*dark gray card*/
   color: white;
-  width: 600px;
+  width: 700px;
   margin: 50px auto;
   padding: 30px;
   text-align: center;
   border-radius: 10px;           
 }
 
-.profile-img {
+.profile-pic {
   height: 150px;
   width: 150px;
   object-fit: cover;            
@@ -22,8 +22,8 @@ body {
 }
 
 h1 {
-  margin: 10px 0;
   font-size: 26px;
+  margin: 10px 0;
 }
 
 p {
@@ -39,8 +39,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.bio {
-  margin-top: 20px;
-  text-align: center;            
+.emailid {
+    font-style: italic;
+}
+
+.about {
+  text-align: left;
+  margin-top: 20px;     
   line-height: 1.6;
 }
